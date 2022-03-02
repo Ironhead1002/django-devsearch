@@ -1,0 +1,4 @@
+python -m django startproject trydjango .    -- To initialize settings for project named trydjango
+python manage.py startapp articles          -- To make a component named articles
+python manage.py migrate                    -- To migrate changes
+python manage.py makemigrations             -- To migrate new apps (here articles)
